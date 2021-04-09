@@ -1,7 +1,7 @@
 <!--
  * @Author: zluof
  * @Date: 2020-12-16 16:33:38
- * @LastEditTime: 2021-04-09 16:37:12
+ * @LastEditTime: 2021-04-09 16:41:47
  * @LastEditors: zluof
  * @Description: 
  * @FilePath: /undefined/Users/zhongxiaoxi/zm/iOSNote/README.md
@@ -20,6 +20,6 @@ $ icode project /// 打开project项目
 
 # pgydb 简陋的iOS测试包分发工具
 ```bash
-curl https://codeload.github.com/zlfyuan/iOSNote/tar.gz/master | tar -xz -C . --strip=3 iOSNote-master/pgydb/pgydb && mv pgydb /usr/local/bin
+curl https://codeload.github.com/zlfyuan/iOSNote/tar.gz/master | tar -xz -C . --strip=3 iOSNote-master/pgydb/pgydb && mv pgydb /usr/local/bin && cd ~ && touch .daba_config.yml
 ```
 具体使用请看[REDME](https://github.com/zlfyuan/iOSArchive/blob/master/README.md)
